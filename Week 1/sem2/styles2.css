@@ -1,0 +1,28 @@
+.highlight {
+    background-color: green;
+}
+
+p.highlight {
+    font-style: italic;
+}
+
+.highlight.mainPoint {
+    color: red;
+    background-color: black;
+}
+
+/*any article element which is a direct child of a section element*/
+section > article {
+    color: green;
+    font-size: 24px;
+}
+
+/*any h3 element which is a direct child of a section element*/
+section > h3 {
+    color: indianred;
+}
+
+/*all li elements that are inside a section element*/
+section li {
+    color: blue;
+}

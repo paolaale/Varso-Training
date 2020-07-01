@@ -1,0 +1,23 @@
+header li {
+    list-style: none;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    background-color: coral;
+    border: 1px solid chocolate;
+    color: black;
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 1px;
+}
+
+a:hover, a:active {
+    background-color: cornflowerblue;
+    color: darkblue;
+}
+
+section div:nth-child(odd) {
+    background-color: grey;
+}
