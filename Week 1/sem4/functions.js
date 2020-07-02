@@ -22,3 +22,33 @@ function doOperation(x, operation) {
 
 var result = doOperation(5, multiplyBy3);
 console.log(result); //15
+
+/* Pass by value */
+function changePrimitive (primValue) {
+    
+    console.log("in changePrimitive...");
+    console.log("before: " + primValue);
+
+    primValue = 5;
+    console.log("after: " + primValue);
+
+}
+
+var value = 7;
+changePrimitive(value);
+console.log("after function, origin value = " + value);
+
+/* Pass by reference */
+function changeObject (objValue) {
+    
+    console.log("in changeObject...");
+    console.log("before: " + objValue);
+
+    objValue.x = 5;
+    console.log("after: " + objValue);
+
+}
+
+value = { x: 7};
+changeObject(value);
+console.log("after function, origin value = " + value);
