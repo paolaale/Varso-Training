@@ -1,0 +1,47 @@
+<template>
+    <div>
+        <h3>Skills</h3>
+            <table>
+                <tr>
+                    <td>
+                        <table>
+                            <tr>
+                                <td>C++</td>
+                                <td>⭐⭐⭐⭐⭐</td>
+                            </tr>
+                            <tr>
+                                <td>Node.js</td>
+                                <td>⭐⭐⭐⭐</td>
+                            </tr>
+                            <tr>
+                                <td>Swift</td>
+                                <td>⭐⭐⭐</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table>
+                            <tr>
+                                <td>C</td>
+                                <td>⭐⭐</td>
+                            </tr>
+                            <tr>
+                                <td>SQL</td>
+                                <td>⭐⭐⭐</td>
+                            </tr>
+                            <tr>
+                                <td>Java</td>
+                                <td>⭐⭐</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+    </div>
+</template>
+
+<script>
+export default {
+    name: "Skills"
+}
+</script>
