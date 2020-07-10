@@ -3,7 +3,8 @@
         <p>
             Name: {{person.name}} <br>
             Email: {{person.email}} <br>
-            Age: {{person.age}}
+            Age: {{person.age}} <br>
+            <button @click="$emit('del-contact', person.id)">Delete</button>
         </p>
         <hr>
     </div>

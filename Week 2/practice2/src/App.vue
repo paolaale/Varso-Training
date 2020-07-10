@@ -2,7 +2,7 @@
   <div id="app">
     <Header />
     <Form v-on:add-person="addPerson"/>
-    <List v-bind:persons="persons"/>
+    <List v-bind:persons="persons" v-on:del-contact="deleteContact"/>
   </div>
 </template>
 
@@ -33,6 +33,9 @@ export default {
   methods: {
     addPerson(newPerson) {
       this.persons = [...this.persons, newPerson];
+    },
+    deleteContact(id) {
+      this.persons = this.persons.filter(person => person.id !== id);
     }
   }
 

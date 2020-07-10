@@ -1,7 +1,7 @@
 <template>
     <div>
         <div v-bind:key="person.id" v-for="person in persons">
-            <Person v-bind:person="person"/>
+            <Person v-bind:person="person" v-on:del-contact="$emit('del-contact', person.id)"/>
         </div>
     </div>
 </template>
