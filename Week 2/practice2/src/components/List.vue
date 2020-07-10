@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div>
+        <div v-bind:key="person.id" v-for="person in persons">
             <Person v-bind:person="person"/>
         </div>
     </div>

@@ -1,10 +1,11 @@
 <template>
     <div>
         <p>
-            {{person.name}},
-            {{person.email}},
-            {{person.age}}
+            Name: {{person.name}} <br>
+            Email: {{person.email}} <br>
+            Age: {{person.age}}
         </p>
+        <hr>
     </div>
 </template>
 

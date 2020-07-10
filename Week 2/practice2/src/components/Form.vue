@@ -1,11 +1,12 @@
 <template>
     <div>
         <form @submit="addPerson">
-            <input type="text" v-model="name" name="fullName" placeholder="Name">
+            <input type="text" v-model="name" name="name" placeholder="Name">
             <input type="email" v-model="email" name="email" placeholder="Email">
             <input type="number" v-model="age" name="age" placeholder="Age">
-            <button type="submit" name="Save">Save</button>
+            <button type="submit" value="Submit">Save</button>
         </form>
+        <br>
     </div>
 </template>
 
