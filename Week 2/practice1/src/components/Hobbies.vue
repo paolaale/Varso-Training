@@ -1,12 +1,12 @@
 <template>
-    <div>
-        <h3>Hobbies</h3>
+    <div class="space-y-3 text-center">
+        <h3 class="text-lg font-semibold text-teal-500">Hobbies</h3>
         <ol>
-            <li>Read books</li>
-            <li>Play piano</li>
-            <li>Exercise</li>
+            <li>1. Read books</li>
+            <li>2. Play piano</li>
+            <li>3. Exercise</li>
         </ol>
-        <hr>
+        <hr class="border-b-4 border-dotted border-gray-500 w-12 px-4 mx-auto pt-4">
     </div>
 </template>
 

@@ -1,7 +1,7 @@
 <template>
-    <header>
-        <h1>I'm Paola</h1>
-        <p>Student of Computer Science</p>
+    <header class="bg-teal-100 p-8 space-y-5 text-center">
+        <h1 class="font-mono text-2xl font-bold">I'm Paola</h1>
+        <p class="font-mono text-lg">Student of Computer Science</p>
     </header>
 </template>
 
