@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <h1>Contacts List</h1>
+    <div class="text-center p-4">
+        <h1 class="font-serif text-3xl font-bold">Contacts List</h1>
     </div>
 </template>
 
