@@ -1,7 +1,7 @@
 <template>
     <div class="space-y-3 text-center p-8">
         <h3 class="text-lg font-semibold text-teal-500">Skills</h3>
-            <table class="border-collapse">
+            <table class="border-collapse px-8 mx-auto">
                 <tr>
                     <td>
                         <table class="border-collapse">

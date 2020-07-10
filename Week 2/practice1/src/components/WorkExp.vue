@@ -1,7 +1,7 @@
 <template>
-    <div class="space-y-3 text-center p-2">
+    <div class="space-y-3 text-center">
         <h3 class="p-8 text-lg font-semibold text-teal-500">Work Experience</h3>
-        <table class="border-collapse border-2 border-gray-500">
+        <table class="border-collapse border-2 border-gray-500 p-8 mx-auto">
             <thead>
                 <tr>
                     <th class="border border-gray-400 px-4 py-2 text-gray-800">Date</th>
@@ -19,7 +19,7 @@
                 </tr>
             </tbody>
         </table>
-        <hr class="border-b-4 border-dotted border-gray-500 w-12 px-4 mx-auto">
+        <hr class="border-0 border-b-4 border-dotted border-gray-500 w-12 p-4 mx-auto">
     </div>
 </template>
 
