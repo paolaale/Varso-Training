@@ -34,8 +34,8 @@ export default {
     addPerson(newPerson) {
       this.persons = [...this.persons, newPerson];
     },
-    deleteContact(id) {
-      this.persons = this.persons.filter(person => person.id !== id);
+    deleteContact(index) {
+      this.persons.splice(index, 1)
     }
   }
 
