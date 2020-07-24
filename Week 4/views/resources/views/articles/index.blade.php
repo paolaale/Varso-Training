@@ -4,7 +4,7 @@
 
     <div id="wrapper">
         <div id="page" class="container">
-            @foreach ($articles as $article)
+            @forelse ($articles as $article)
                 <div class="content">
                     <div class="title">
                         <h2><a href="{{ route('articles.show', $article->id) }}">{{ $article->title }}</a></h2>
@@ -15,7 +15,9 @@
                     {!! $article->excerpt !!}
                 </div>
                 <br>
-            @endforeach
+                @empty
+                    <p>No relevant articles yet</p>
+            @endforelse
         </div>
     </div>
 
