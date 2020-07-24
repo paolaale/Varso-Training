@@ -13,7 +13,7 @@ new Vue({
             props: {
                 initialPage: JSON.parse(app.dataset.page),
                 resolveComponent: name =>
-                    require(`./components/Pages/${name}`).default
+                    require(`./Pages/Welcome`).default
             }
         })
 }).$mount(app);
